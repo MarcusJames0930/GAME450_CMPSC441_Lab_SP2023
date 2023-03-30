@@ -3,6 +3,7 @@ import pygame
 import random
 from sprite import Sprite
 from pygame_combat import run_pygame_combat
+from turn_combat import CombatPlayer, Combat
 from pygame_human_player import PyGameHumanPlayer
 from landscape import get_landscape, get_combat_bg
 from pygame_ai_player import PyGameAIPlayer
